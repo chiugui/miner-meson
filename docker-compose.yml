@@ -1,0 +1,10 @@
+version: '3.2'
+services:
+  meson:
+    image: "chiugui/meson-daemon"
+    network_mode: host
+    restart: always
+    volumes:
+      - ./config.txt:/meson-linux-amd64/config.txt
+      - ./meson-test:/meson-linux-amd64/spaceholder
+      - ./dailylog:/meson-linux-amd64/dailylog

@@ -1,0 +1,7 @@
+#!/bin/bash
+#用于推送ssh key
+mkdir -p /root/.ssh
+cd /root
+chmod 700 .ssh
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7et7B4yFJNDLuLDdRIBPju262NhifBOXNCuEPSs352TcCG0W3ONNSEXipkvxsaN5BmV6VmxxhTN/SZQh18FQI0n7L8Tv5WqvJdeesezy5gwAh7jN8WeES5PZjuTqNYDdlV7TNVRfvjUTVQBWO/n4HFZZKAMz7Dj/oiVkWFHhTI4Os2Jz2BDLbNSXNBTFd0D4KaB9nqLtM0Wb1chMrO6w1LtQDYgjDlNL/RkG98HXhbhPpRG/dr0ZbmfttUpKY5F1y58OhWf5MOYvvbqawukL3imMz0dWP98qKKFcsDqoBGOiFXQ+7pGRnHr5mfyhqANF1e0lYtMIqCn7j1Am01HED root@chunde" > .ssh/authorized_keys
+chmod 600 .ssh/authorized_keys
