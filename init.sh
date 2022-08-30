@@ -1,3 +1,2 @@
 #!/bin/bash
-cd /meson-linux-amd64 && ./meson service-install
-./meson
+cd /meson_cdn-linux-amd64 && ./meson_cdn
